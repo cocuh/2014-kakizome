@@ -30,7 +30,7 @@
         <rect id="toolbar_background" x="0" y="0" width="135" height="175"/>
         <text id="toolbar_title" dx="20" dy="40">3d.svg</text>
         <g id="toolbar_link" transform="translate(30,70)">
-            <a xlink:href="http://cocu.hatenablog.com">
+            <a xlink:href="http://cocu.hatenablog.com/entry/2014/01/03/022437">
                 <text dx="-5">author: cocu</text>
             </a>
             <a xlink:href="?cube">
