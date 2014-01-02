@@ -1,0 +1,54 @@
+svg{
+    font-family: 'Metrophobic' sans-serif;
+    background:black;
+}
+line{
+    stroke-width:0.75px;
+}
+text{
+    fill:white;
+}
+.line_x{
+    stroke:red;
+}
+.line_y{
+    stroke:green;
+}
+.line_z{
+    stroke:blue;
+}
+
+path{
+    stroke:white;
+    stroke-width:0.75px;
+    fill:none;
+}
+#toolbar_background{
+    fill: #1d1e2a;
+    stroke: #616161;
+    stroke-width:3px;
+}
+#toolbar_toggle rect{
+    fill: #1d1e2a;
+    stroke: #616161;
+    stroke-width:3px;
+}
+#toolbar_toggle path{
+    stroke: gray;
+    stroke-width:3px;
+}
+#toolbar_start rect{
+    fill: #1d1e2a;
+    stroke: #616161;
+    stroke-width:3px;
+}
+#toolbar_text text{
+    font-size: 16px;
+}
+#toolbar_clip rect{
+    stroke:none;
+    fill:black;
+}
+#toolbar_title{
+    font-size: 30px;
+}

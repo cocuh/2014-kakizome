@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet href="main.css" type="text/css"?>
+<?xml-stylesheet href="http://fonts.googleapis.com/css?family=Metrophobic" type="text/css"?>
+<?xml-stylesheet href="http://fonts.googleapis.com/css?family=Alegreya+Sans" type="text/css"?>
+<svg
+        xmlns:dc="http://purl.org/dc/elements/1.1/"
+        xmlns:cc="http://web.resource.org/cc/"
+        xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+        xmlns="http://www.w3.org/2000/svg"
+        xmlns:xlink="http://www.w3.org/1999/xlink"
+        version="1.1"
+        onload="main()"
+        id="svg"
+        >
+    <title>書き初めハッカソン 2014</title>
+    <metadata>
+        <rdf:RDF>
+            <rdf:Description rdf:about="http://2014.typowriter.org/3d.svg/index.svg">
+                <dc:creator>cocu</dc:creator>
+                <dc:description>Work in NewYearHackason(Alone) 2014</dc:description>
+                <dc:date>2014-01-03</dc:date>
+                <dc:format>image/svg+xml</dc:format>
+            </rdf:Description>
+        </rdf:RDF>
+    </metadata>
+    <defs>
+        <clipPath id="toolbar_clip">
+            <rect id="toolbar_clip_rect" x="0" y="0" width="135" height="175" fill="white"/>
+        </clipPath>
+        <rect id="toolbar_background" x="0" y="0" width="135" height="175"/>
+        <text id="toolbar_title" dx="20" dy="40">3d.svg</text>
+        <g id="toolbar_link" transform="translate(30,70)">
+            <a xlink:href="http://cocu.hatenablog.com">
+                <text dx="-5">author: cocu</text>
+            </a>
+            <a xlink:href="?cube">
+                <text dy="30">+cube</text>
+            </a>
+            <a xlink:href="?triangle">
+                <text dy="50">+triangle</text>
+            </a>
+            <a xlink:href="?tsuru">
+                <text dy="70">+tsuru</text>
+            </a>
+        </g>
+        <g id="toolbar_toggle">
+            <rect x="0" y="0" width="18" height="18"/>
+            <path id="toolbar_toggle_path" d="M10,4L4,4L4,10"/>
+        </g>
+    </defs>
+
+    <script xlink:href="libvec.js"/>
+    <script xlink:href="libobj.js"/>
+    <script xlink:href="3d.js"/>
+    <script xlink:href="toolbar.js"/>
+    <script xlink:href="data.js"/>
+</svg>
