@@ -168,6 +168,7 @@ Seane = function(iscript){
         var s2 = Math.sqrt(2);
         count++;
         count %= 360;
+        if( count == 90){return;}
         view_vec.set(s2 * Math.sin(2 * Math.PI * count / 360), 1, s2 * Math.cos(2 * Math.PI * count / 360));
         view_vec.normalize();
         
